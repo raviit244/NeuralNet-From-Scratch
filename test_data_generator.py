@@ -16,8 +16,9 @@ def spiral_data(points, classes):
         y[ix] = class_number
     return X, y
 
-
-X, y = spiral_data(100, 3)
-
-plt.scatter(X[:, 0], X[:, 1], c=y, cmap="brg")
-plt.show()
+# Visualisation
+#
+# X, y = spiral_data(100, 3)
+#
+# plt.scatter(X[:, 0], X[:, 1], c=y, cmap="brg")
+# plt.show()
